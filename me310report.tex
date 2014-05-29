@@ -22,6 +22,8 @@
 \usepackage{color}               % support for colored fonts
 \usepackage{url}  \urlstyle{same}     % deal with url strings in bibliography
 
+\usepackage[final]{pdfpages}
+
 %Optional fonts if you don't like the default in Latex
 %\usepackage[T1]{fontenc}
 %\usepackage{mathptmx}  %This will give you Times Roman, like default in MS Word.
@@ -53,22 +55,22 @@
 %Replace the strings below with what's right  for you.
 
 %%Insert your Document Title here. Use \\ to force a newline.
-\title{Redesigning the Flying Experience for Persons with Disabilities}
+\title{Redesigning the Flying Experience for Passengers with Limited Mobility}
 
-\team{Team: Embraer} 		% Insert your Team Project Name here.
+%\team{Embraer} 		% Insert your Team Project Name here.
 
 %% Insert Fall, Winter, Spring here:
-\quarter{Winter Quarter}
+%\quarter{Winter Quarter}
 
 %%Enter your local + global team members' names here:
-\author{  
-    Rodrigo Aquino, Clifford Bargar, Maria Barrera, Luiz Dur\H{a}o, Erika Finley, \\
-    Laura Hoinville, Robert Karol, Guilherme Kok, Amanda Mota
-    } % end authors       
+%\author{  
+%   Rodrigo Aquino, Clifford Bargar, Maria Barrera, Luiz Dur\H{a}o, \\
+%  Laura Hoinville, Guilherme Kok, Amanda Mota
+% } % end authors       
 
 %% If you don't want it to use the printing date, replace "\today"
 %% with the date that you want.
-\date{\today}
+%\date{\today}
 %%%%%%%%%%%END TITLE PAGE%%%%%%%%%%%%%
 
 
@@ -96,20 +98,15 @@
 %7 cm is about max figure height before messing up title spacing.
 %If making your own fancy coverpage (e.g. in Photoshop) then comment out 
 %the \includegraphics{ } and use the \vspace{ } command.
-\begin{figure}[t]
-\centering
+%\begin{figure}[t]
+%\centering
   %An example cover image, from 2008 ME310 Kodak project
-  \includegraphics[height= 7cm]{Figures/Ch1frontmatter/KodakThing.pdf}
+%  \includegraphics[height= 7cm]{images/Top_Photo.jpg}
 %\vspace{3 cm}    %Use this instead when you have no cover picture 
-\end{figure}
+%\end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Make the title page using arguments defined above.
-\titlep
+\includepdf[fitpaper=true]{Cover}
 
-%%%%%%%%%%%%%%%%%%%%%%%%
-% Load file "Executive.tex" for the Executive summary.
-% Remember, this is a stand-alone section for executives to read.
 \include{Front_Matter}
 
 
@@ -120,9 +117,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{Context}   %Your team, the corporate partner, the project background
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\include{Requirements}
-%This section is omitted from the Fall document
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{Design_Development}  %Results of benchmarking, need-finding, CFP, CEP etc.
@@ -131,6 +125,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{Design_Vision}  %This section is just your proposal or "Vision" for Fall.
+
+\include{Design_Specifications}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{Project_Management}  %Current and future plans.
@@ -153,9 +149,12 @@
 
 %%%%%BEGIN APPENDIX SECTIONS%%%%%%%%%%%%%%%
 \begin{appendices}
-\include{Appendix1}
-\include{Appendix2}       % There could be multiple appendix files like this
-\include{Appendix3}
+\include{AppendixErika}
+\include{Appendix_blue_print}
+\include{Appendix_previous_quarters}
+\include{Appendix_survey}
+\include{Appendix_air_france}
+\include{Appendix_analysis_cargo_hold}       
  \end{appendices}
  %%%%%END APPENDIX SECTIONS%%%%%%%%%%%%%%%
  
