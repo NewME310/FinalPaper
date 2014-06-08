@@ -15,64 +15,99 @@ The following requirements are based on the problem statement, team brainstormin
 
 \subsection*{Wheelchair storage device}
 
-In order to prevent wheelchairs from being damaged our team wants to design a platform that will enable baggage handlers to move the mobility device from the jetway to the cargo hold. This platform will be composed of five parts:
+In order to prevent wheelchairs from being damaged our team wants to design a platform that will enable baggage handlers to move the mobility device from the jetway to the cargo hold. This platform will be composed of four parts:
 
 \begin{list}{-}{}
   \item A pallet that will support the wheelchair
   \item A moving mechanism to enable transport from jetway to cargo hold
   \item Electronics that will identify who is handling the wheelchair and detect mishandling
   \item A handle that will enable baggage handlers to interact with the platform
-  \item A ramp that will enable the wheelchair to be driven on top of the pallet
 \end{list}
 
-The functional requirements for each of this part are in the tables from \ref{fig:fun_req_pallet} to \ref{fig:fun_req_ramp}.
+The functional requirements for each of this part are in the tables from \ref{tab:functional_requirements_platform} to \ref{tab:functional_requirements_electronics}.
 
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_pallet.png}
-   \caption{Functional requirements for the pallet}
-  \label{fig:fun_req_pallet}
-\end{figure}
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
 
+Support Load & Platform must be able to support a minimum of 450 lb & Platform must support the weight of the power wheelchair and the passenger \\ \hline
+Lightweight & Platform weghs less than 60 lbs & Platform must not add substantial weight to the airplane's payload \\ \hline
+Wheelchair Climable & Platform is less than 1.5 inches high & The wheelchair cannot climb on top of the platform if it is too high  \\ \hline
+Platform Structure & Platform must not deflect more than .5 inches when the wheelchair is on top & Platform must be reinforced in places where it is likely to deform \\ \hline
+External wheels & Platform does not use wheelchair wheels for mobility & Handlers often break wheelchairs by trying to shift their gears \\ \hline
+Transition from Movable to Stationary & Needs an actuator that activates moving mechanism in less than 20s & Needs to shift from moving to stationary quickly depending on the situation.  \\ \hline
+Time efficient & Putting the wheelchair on top of the platform and securing it should take less than 5min & Baggage handlers and airport personnel are busy, since they also have to deal with luggage and other passengers \\ \hline
+Wheelchair Attachment to Platform & Platform has straps for the wheelchair with placement conforming to transportation regulations: 36 CFR 1192.23, D2 
+& Wheelchair must be rigidly attached to platform using a system that wheelchair users already trust and will provide them with piece of mind\\ \hline
+Fatigue & Platform must be able to withstand 5000 cycles & Platform should be replaced sparingly. \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Platform}
+\label{tab:functional_requirements_platform}
+\end{table}
+
+\clearpage
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_moving_mechanism.png}
-   \caption{Functional requirements for the moving mechanism}
-  \label{fig:fun_req_moving_mechanism}
-\end{figure}
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
 
+Moving Load &  Wheels have to support at least 200 pounds & The heaviest power wheelchairs can be up to 200 lbs \\ \hline
+Resistant Wheels & Wheels have to withstand and overcome friction forces found in rough terrain &	Our system will be used on the tarmac as well as on the jetway \\ \hline
+Withstand stationary load &	Parts in contact with the floor must be able to support 450 lbs	 & Person will be driving the wheelchair on to the platform thus it will have to withstand the weight of power wheelchair + person (max 250lbs) \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Moving Mechanism}
+\label{tab:functional_requirements_moving}
+\end{table}
+
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+
+Support Load & Handle must be able to move a load of at least 200 lbs without deflecting more than 1in & Handler needs to be assured that the handle can push the required load  \\ \hline
+Ergonomics & Handle must comply with standards for pushing heavy items & Handler must exert minimal force to move platform along  \\ \hline
+Electronics Housing & Capability to hold electronics & Handlers need an easy and quick access to the RFID antenna.  \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Platform Handle}
+\label{tab:functional_requirements_handle}
+\end{table}
+
+\clearpage
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_electronics.png}
-   \caption{Functional requirements for the electronics}
-  \label{fig:fun_req_electronics}
-\end{figure}
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+Handler Check-in & Electronics include an RFID antenna that recognizes the RFID tag in their gloves & Handlers' accountability will increase if they know that others are aware that the wheelchair is their responsiblity \\ \hline
+Instantaneous Feedback & 	Feedback for successful check in is received within 10 ms & Handler must immediately know when they have successfully checked in so they can continue doing their jobs\\ \hline
+Visual Feedback & Electronics includes highly visible LEDs & Visual feedback is easy to spot. Handlers are in a loud environment and are wearing thick gloves so auditory and tactile feedback are out of the question.\  \\ \hline
+Detect Free Fall and Mishandling & Electronics include an accelerometer that is calibrated to detect any acceleration greater than 14 G’s that are shorter than 12.5 ms in duration & Airlines needs to be notified of any falls or hard impacts so they may appropriately prepare and notify the wheelchair user \\ \hline
+Wireless Connection & Electronics have imbeded wireless communication capabilities & Passengers should know who is handing their wheelchair and airlines should know who is responsible when mishanding occurs so they may take action \\ \hline
+Easily Rechargeable & Battery should only need to be charged for 5-6 hours at a time & Battery should be able to get by only being charged during airport down-times (e.g. overnight) \\ \hline
 
+\end{tabular} 
+\caption{Functional Requirements for the Platform Electronics}
+\label{tab:functional_requirements_electronics}
+\end{table}
+
+\clearpage
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_handle.png}
-   \caption{Functional requirements for the handle}
-  \label{fig:fun_req_handle}
-\end{figure}
 
-\newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_ramp.png}
-   \caption{Functional requirements for the ramp}
-  \label{fig:fun_req_ramp}
-\end{figure}
 
-\newpage
+
+
+
+
+
+
 
 \subsection*{Wheelchair transfer mechanism}
 
@@ -88,71 +123,99 @@ In order to improve the boarding experience for disabled passengers, our team de
   \item A new airplane seat that will be adapted to the sliding base
 \end{list}
 
-The functional requirements for each of this part are in the tables from \ref{fig:fun_req_chest_rest} to \ref{fig:fun_req_airplane_seat}.
+The functional requirements for each of this part are in the tables from \ref{tab:functional_requirements_chestrest} to \ref{tab:functional_requirements_wheelchair}.
 
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_chest_rest.png}
-   \caption{Functional requirements for the chest rest}
-  \label{fig:fun_req_chest_rest}
-\end{figure}
-
+\clearpage
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_locomotion_mechanism.png}
-   \caption{Functional requirements for the locomotion mechanism}
-  \label{fig:fun_req_locomotion_mechanism}
-\end{figure}
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
 
+Removable from Base &  There is a latching mechanism on the sliding base to attach/detach chest rest & The rows must be unobstructed to allow other passengers to exit in an emergency and the chestrest must be available for other passengers that may request the aisle wheelchair. \\ \hline
+Adjustable Height & Minimum vertical variation is 6in & It has to be adjustable to people with different body types\\ \hline
+User Support &  There is at least one belt to hold the user to the chest rest & The belts shall provide safety and keep the user erect and attached to the structure \\ \hline
+User Comfort & The rest will be cushioned at the areas making contact with the body & We want to avoid bruises or sores on the user's  body \\ \hline
+Body Support & Rigid structure should withstand a 330lb person leaning on it & It allows the user to feel secure while being transferred
+\\ \hline
+Ergonomic Height & Handles located 30in above ground & Allows assistant to easily push/pull the wheelchair \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Chest Rest}
+\label{tab:functional_requirements_chestrest}
+\end{table}
+
+
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+
+
+Steering Radius &  Wheelchair can steer in a 15in radius & Allows for maneuvering inside the tight spaces in the plane \\ \hline
+Brakes & There are locks on the wheels & Allows personnel to securely lock the wheelchair to avoid accidents during transfer  \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Locomotion Mechanism}
+\label{tab:functional_requirements_locomotion}
+\end{table}
+
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+
+Foot Support &  Has a support for passengers feet with dimensions of 15in x 6 in & To prevent the feet from being dragged. \\ \hline
+Foot Securing & Has an optional strap that can be put around passenger's feet & To keep the user's feet secure while moving the wheelchair.  \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Footrest}
+\label{tab:functional_requirements_footrest}
+\end{table}
+
+
+\clearpage
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_cushion.png}
-   \caption{Functional requirements for the cushion}
-  \label{fig:fun_req_cushion}
-\end{figure}
 
-\newpage
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_sliding_base.png}
-   \caption{Functional requirements for the sliding base}
-  \label{fig:fun_req_sliding_base}
-\end{figure}
+Adjustable & It should be at least 4cm tall and the filling/stuffing should be adjustable (different pressure/padding)& Its common for wheelchair users to suffer injuries for seating for long periods of time. Cushion must be adjustable to user to provide them with comfort \\ \hline
+Removable & There is a detachable mechanism on the cushion& Allows for proper hygienization and maintenance. \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Cushion}
+\label{tab:functional_requirements_cushion}
+\end{table}
 
-\newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_wheelchair_structure.png}
-   \caption{Functional requirements for the wheelchair structure}
-  \label{fig:fun_req_wheelchair_structure}
-\end{figure}
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+Non-Aligned Lateral Transfer & Allows a transfer with a gap of 2in and a .4in tolerance between the seat's cushion base and the wheelchair's cushion base & Makes the lateral transfer easier and faster  \\ \hline
+Independent Transfer & A maximum 50N force will be required for the transfer & Allows for user to independently transfer themselves without the help of others  \\ \hline
+Secure & Has a latching device that latches it on to the seat and wheelchair & Avoids undesired lateral transfers and consequently accidents. \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Sliding Base}
+\label{tab:functional_requirements_sliding}
+\end{table}
 
-\newpage
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_footrest.png}
-   \caption{Functional requirements for the footrest}
-  \label{fig:fun_req_footrest}
-\end{figure}
+Maximum Load & Must withstand a 150kg load & Wheelchair must be secure enough to be used by passengers. Due to the restriction of the size of the aisle of the airplane, people that are extremely obese were not considered on this design. \\ \hline
+Chair Mobility & Chair has wheels that can move with minimal force & The chair must be able to easily move inside the aircraft. \\ \hline
+\end{tabular} 
+\caption{Functional Requirements for the Wheelchair Structure}
+\label{tab:functional_requirements_wheelchair}
+\end{table}
 
-\newpage
-
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/functional_requirements_airplane_seat.png}
-   \caption{Functional requirements for the airplane seat}
-  \label{fig:fun_req_airplane_seat}
-\end{figure}
-
+\clearpage
 \newpage
 
 \subsection{Functional Constraints}
@@ -171,9 +234,9 @@ The functional requirements for each of this part are in the tables from \ref{fi
 
 \begin{list}{-}{}
   \item Due to FAA regulations and flight requirements every element that goes inside the cabin must withstand 6 G's.
-  \item The redesigned aisle wheelchair must be as safe as the standard aisle wheelchair operated nowadays.
-  \item The new aisle wheelchair has to operate in the restrained space of the airplane aisle.
-  \item In case of turbulences, the wheels of the new aisle wheelchair must be blocked.
+  \item The redesigned aisle wheelchair must be as safe as the standard aisle wheelchair operated today.
+  \item The new aisle wheelchair has to operate in the constrained space of the airplane aisle.
+  \item In case of turbulence, the wheels of the new aisle wheelchair must be locked.
 \end{list}
 
 \subsection{Functional Assumptions}
@@ -181,15 +244,15 @@ The functional requirements for each of this part are in the tables from \ref{fi
 \subsection*{Wheelchair storage device}
 
 \begin{list}{-}{}
-  \item Since the straps that are used to attach the wheelchair to the platform are the same as bus straps, wheelchair users are assumed to already be familiar with them. The use of this mechanism should provide them peace of mind since they already trust it in buses.
-  \item The platform configuration changes (on the wheels to be moved or on the pallet to be stored) will be trigered by baggage handlers acting on an electric jack.
-  \item Baggage handlers will be wearing their gloves with the RFID tag everytime that they handle a wheelchair and use our platform.
+  \item Since the straps that are used to attach the wheelchair to the platform are the same as bus straps, wheelchair users are assumed to already be familiar with them. The use of this mechanism should provide them peace of mind since they already trust it. 
+  \item The platform configuration changes (rests on the wheels to be moved or rests on the platform to be stored) will be triggered by baggage handlers acting on an electric jack.
+  \item Baggage handlers will be wearing their gloves with the RFID tag everytime  they handle a wheelchair and use our platform.
 \end{list}
 
 \subsection*{Wheelchair transfer mechanism}
 
 \begin{list}{-}{}
-  \item All aisle seats must have retractable armrest. It must allow the mechanism to slide without any obstacles in its way.
+  \item All aisle seats  that will be used by wheelchair users must have retractable armrest. It must allow the mechanism to slide without any obstacles in its way.
   \item The passenger will always be accompanied by a flight attendant to guarantee the safety of the passenger and to pull/push the aisle wheelchair.
   \item Tetraplegic passengers will always be accompanied by a travel companion/assistant. Because of regulation (ANAC) and their reduced autonomy, tetraplegic users are not allowed to fly alone.
   \item The airplane seat must withstand 19 G's during take-off and landing. This is what the FAA requires in order to make sure seats can withstand any type of accident happening during take-off or landing.
@@ -200,91 +263,134 @@ The functional requirements for each of this part are in the tables from \ref{fi
 \subsection*{Wheelchair storage device}
 
 \begin{list}{-}{}
-  \item Our platform must be intuitive to use. A baggage handler should know how to attach a wheelchair to the platform after a 15 mn training.
-  \item Ideally the platform should have a braking system for the wheels to prevent it from moving too fast on a sloped surface. A braking device would allow handlers to have better control on the device.
+  \item Our platform must be intuitive to use. A baggage handler should know how to attach a wheelchair to the platform after a 15 min training.
+  \item Ideally the platform should have a braking system for the wheels to prevent it from moving too fast on a sloped surface. A braking device would allow handlers to have better control of the device.
 \end{list}
 
 \subsection*{Wheelchair transfer mechanism}
 
 \begin{list}{-}{}
-  \item Although we are desiging for a paraplegic user, it shall allow a tetraplegic user to be transferred from the aisle wheelchair to his/her seat with assistance. In this case, it should be a more pleasant experience since the assistant would not need to lift the tetraplegic user.
-  \item The chest rest makes frontal transfer possible. Nowadays it cannot be done due to the current wheelchair dimensions.
-  \item It reduces the risk associated to transfer because no one is carrying the disabled passenger. The chest rest is here to avoid human contacts that can be unpleasant and/or source of accidents.
-  \item The chest rest allows paraplegic passengers to go to the restroom and use it.
+  \item Although we are desiging for a paraplegic user, the transfer mechanism shall also allow a tetraplegic user to be transferred from the aisle wheelchair to his/her seat with assistance. In this case, it should be a more pleasant experience since the assistant would not need to lift the tetraplegic user like they do today.
+  \item The chest rest makes frontal transfer possible. Today, this cannot be done due to the current aisle chair dimensions.
+  \item It reduces the risk and liability associated with transfer because no one has to carry the disabled passenger. The chest rest is here to avoid human contact that can be unpleasant and/or source of accidents.
+  \item The chest rest can facilitate paraplegic passengers using the restroom.
 \end{list}
 
-\newpage
 
 \section{Physical Requirements}
 
+The physical requirements of the system explain the physical appearance and structures chosen for each part of the devices. 
+
 \subsection*{Wheelchair storage device}
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_pallet.png}
-   \caption{Physical requirements for the pallet}
-  \label{fig:phy_req_pallet}
-\end{figure}
+The physical requirements for the wheelchair storage device can be found between Tables \ref{tab:physical_requirements_electronics} and \ref{tab:physical_requirements_handle}.
 
+\clearpage
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_electronics.png}
-   \caption{Physical requirements for the electronics}
-  \label{fig:phy_req_electronics}
-\end{figure}
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
 
+Non-intrusive RFID Tag & Tag is built into handler's current equipment and cannot be felt when not in use. We have selected to imbed the RFID tag into the gloves &
+Tag should seamlessly integrate into their current equipment in order to reduce friction \\ \hline
+Intuitive Check-in & There is a mark on the appropriate finger that is to be used to check-in & Wheelchair handler needs to knows exactly what finger to use to check-in \\ \hline
+Thin Electronics Enclosure & Enclosure thickness cannot be greater than .125in & RFID tag needs to be max .5” away to be recognized by the antenna \\ \hline
+Package Modularity & Enclosure can be opened and electronics can be removed and replaced & 
+Electronics need to be removable in case battery power runs out or a component needs to be replaced  \\ \hline
+Easily Located & Electronics box is stands out because it is bright blue and is located on platform handle &
+Handler needs to be able to easily find the electronics box in order to check in. \\ \hline
+Attachable & Enclosure is attached to the handle & Electronics must travel with the wheelchair platform at all times and be easily accessible by the handler \\ \hline
+Lightweight Enclosure & Enclosure does not weigh more than .5 lbs & Every once of weight costs the airline money
+ \\ \hline
+\end{tabular} 
+\caption{Physical Requirements for the Electronics}
+\label{tab:physical_requirements_electronics}
+\end{table}
+
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+
+Floor Safety  & Surface area in contact with the floor is greater than 24in\textsuperscript{2} &
+Reduces probability of cabin floor failure  \\ \hline
+Lightweight & Weighs less than 60lbs & Each extra lb costs money to the airline  \\ \hline
+
+\end{tabular} 
+\caption{Physical Requirements for the Platform}
+\label{tab:physical_requirements_platform}
+\end{table}
+
+
+\clearpage
 \newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_handle.png}
-   \caption{Physical requirements for the handle}
-  \label{fig:phy_req_handle}
-\end{figure}
-
-\newpage
-
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_ramp.png}
-   \caption{Physical requirements for the ramp}
-  \label{fig:phy_req_ramp}
-\end{figure}
-
-\newpage
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+Handle & Platform has an attached handle & Wheelchairs are often broken due to handling mistakes. By providing the handler with a handle independent of the wheelchair that they can use to move the wheelchair from the jetway to the cargo hold,  we are reducing the chance of a mishandling accident \\ \hline
+Wide Handle & Platform has a 3ft wide attached handle & The wider handle allows for the handler to place his/her arms farther apart and exert more force to move the wheelchair. \\ \hline
+Handle Height & Handle is at a height of 4 ft 6 in above the ground & Handle is at a height where the average person can exert the most amount of force with least amount of effort according to the Center for Occupational Health and Safety \\ \hline
+\end{tabular} 
+\caption{Physical Requirements for the Handle}
+\label{tab:physical_requirements_handle}
+\end{table}
 
 \subsection*{Wheelchair transfer mechanism}
+The physical requirements for the wheelchair transfer mechanism can be found between Tables \ref{tab:physical_requirements_chestrest} and \ref{tab:physical_requirements_sliding}.
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_chest_rest.png}
-   \caption{Physicall requirements for the chest rest}
-  \label{fig:phy_req_chest_rest}
-\end{figure}
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_locomotion_mechanism.png}
-   \caption{Physical requirements for the locomotion mechanism}
-  \label{fig:phy_req_locomotion_mechanism}
-\end{figure}
+\clearpage
+\newpage
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_cushion.png}
-   \caption{Physical requirements for the cushion}
-  \label{fig:phy_req_cushion}
-\end{figure}
 
-\begin{figure}[h!]
-  \centering
-     \includegraphics[scale=1]{images/physical_requirements_sliding_base.png}
-   \caption{Physical requirements for the sliding base}
-  \label{fig:phy_req_sliding_base}
-\end{figure}
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
 
+Inclusive Design &  Clean design that does not dehumanize passenger &  Inconspicuous design improves user experience. \\ \hline
+Ergonomic & Adapted to average user size and body shapes & Incites people to use it because it looks well designed and comfortable  \\ \hline
+\end{tabular} 
+\caption{Physical Requirements for the Chest Rest}
+\label{tab:physical_requirements_chestrest}
+\end{table}
+
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+Retractable Handles & Handles retract at least 15cm & Allows for the lateral movement of the system and avoids handles getting stuck on the seat's backrest\\ \hline
+\end{tabular} 
+\caption{Physical Requirements for the Locomotion Mechanism}
+\label{tab:physical_requirements_lococomotion}
+\end{table}
+
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+User Comfort
+ & Has a special cushion that protects user from hard edges on mechanism & Avoid injuries in contact with rigid surfaces and mechanism.\\ \hline
+\end{tabular} 
+\caption{Physical Requirements for the Cushion}
+\label{tab:physical_requirements_cushion}
+\end{table}
+
+
+\begin{table}
+\begin{tabular} {| p{4cm} | p{5cm} | p{5cm} |}
+\hline
+\textbf{Requirement} & \textbf{Metric} & \textbf{Rationale} \\ \hline
+Attachable Chest Rest & Has a latching mechanism & Chest rest must be easily secured and removed\\ \hline
+\end{tabular} 
+\caption{Physical Requirements for the Sliding Base}
+\label{tab:physical_requirements_sliding}
+\end{table}
+\clearpage
 \newpage
 
 \subsection{Physical Constraints}
@@ -292,10 +398,8 @@ The functional requirements for each of this part are in the tables from \ref{fi
 \subsection*{Wheelchair storage device}
 
 \begin{list}{-}{}
-  \item The wheelchair load (more than 600 lbs for the heaviest wheelchairs) must be distributed over a minimum surface area of 8 in2 otherwise the stress experienced by the cargo hold floor will be too high and the floor may collapse. (All the details explaining how we got the 8 in2 figure are shown in appendix F).
-  \item For th RFID identification system, the distance between the antenna and the tag must be as small as possible. The outer plastic surface covering the RFID antenna must be less than .25''.
-  \item The box that encloses all the electronics must be very light weight (less than 3 oz).
-  \item Power wheelchairs cannot climb an angle steeper than 6 degrees so the must inclination must be below this metric.
+  \item The wheelchair load (more than 600 lbs for the heaviest wheelchairs) must be distributed over a minimum surface area of 8 in\textsuperscript{2} otherwise the stress experienced by the cargo hold floor will be too high and the floor may collapse. (All the details explaining how we got the 8in\textsuperscript{2} figure are shown in appendix F).
+  \item For the RFID identification system, the distance between the antenna and the tag must be as small as possible. The outer plastic surface covering the RFID antenna must be less than .125''.
 \end{list}
 
 \subsection*{Wheelchair transfer mechanism}
@@ -310,8 +414,7 @@ The functional requirements for each of this part are in the tables from \ref{fi
 \subsection*{Wheelchair storage device}
 
 \begin{list}{-}{}
-  \item The ramp has to be modular. It is an attachment, not the platform itself because wheelchairs shoud not be stored at a 6 degree angle during a long flight. 
-  \item The ramp has to be removed once used otherwise it would take too much space in the cargo hold.
+  \item If a ramp is used for the wheelchair to get on the platform, it has to be removed once used otherwise it would take too much space in the cargo hold.
 \end{list}
 
 \subsection*{Wheelchair transfer mechanism}
@@ -329,14 +432,12 @@ The functional requirements for each of this part are in the tables from \ref{fi
 
 \begin{list}{-}{}
   \item The handle that enables baggage handlers to move the platform should be ergonomic. They should be covered by an ergonomic sleeve made of material such as silicon in order to increase comfort of pushing the platform around.
-  \item The ramp should be attached to the platform in order to reduce the number of parts the airport personnel needs to handle.
-  \item Having a hinged ramp serves double purpose. It can be used as a ramp and also as a stopper in case the wheelchair unstraps. It is here to increase user's peace of mind.
 \end{list}
 
 \subsection*{Wheelchair transfer mechanism}
 
 \begin{list}{-}{}
   \item Wheelchair transfer from the passenger's wheelchair to the new aisle wheelchair will happen once the passenger has driven his/her mobility device on top of the platform. This way, baggage handlers do not manipulate the wheelchair at all. They only touch the platform. This should provide piece of mind to our user.
-  \item Wheelchair users that are overweight should feel more comfortable in our redesigned aisle wheelchair because there is more support on the side.
+  \item Wheelchair users that are overweight should feel more comfortable in our redesigned aisle wheelchair because there is more support on the sides.
 \end{list}
 
