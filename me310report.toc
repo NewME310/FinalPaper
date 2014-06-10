@@ -100,17 +100,22 @@
 \contentsline {subsubsection}{\numberline {B.2.3.1}User's feedback about the armrest mechanism we designed:}{97}{subsubsection.B.2.3.1}
 \contentsline {subsubsection}{\numberline {B.2.3.2}User's feedback about the control systems we designed:}{98}{subsubsection.B.2.3.2}
 \contentsline {appendix}{\chapternumberline {C}Appendix - User survey}{99}{chapter.C}
-\contentsline {appendix}{\chapternumberline {D}Appendix - Interview of an Air France employee in charge of baggage handling}{103}{chapter.D}
-\contentsline {section}{\numberline {D.1}General procedure for wheelchair storage}{103}{section.D.1}
-\contentsline {section}{\numberline {D.2}Specific procedure for heavy powered wheelchair which are stored in the cargo hold}{104}{section.D.2}
-\contentsline {section}{\numberline {D.3}Impacts on the center of gravity of the plane due to the presence of a heavy wheelchair in the cargo hold}{105}{section.D.3}
-\contentsline {section}{\numberline {D.4}Responsibilities of the airline employees}{105}{section.D.4}
-\contentsline {appendix}{\chapternumberline {E}Appendix - Characteristics of Embraer jet E175}{106}{chapter.E}
-\contentsline {section}{\numberline {E.1}Analysis of aircraft dimensions}{106}{section.E.1}
-\contentsline {section}{\numberline {E.2}Analysis of the cargo hold structure}{108}{section.E.2}
-\contentsline {subsubsection}{\numberline {E.2.0.3}Analysis of short beams – shear failure}{111}{subsubsection.E.2.0.3}
-\contentsline {subsubsection}{\numberline {E.2.0.4}Analysis of floor panels – flat wise tension/compression failure}{112}{subsubsection.E.2.0.4}
-\contentsline {appendix}{\chapternumberline {F}Appendix - Smartphone app to provide disabled passengers with useful information about their flight}{113}{chapter.F}
-\contentsline {appendix}{\chapternumberline {G}Appendix - Brochure from EXPE}{120}{chapter.G}
-\contentsline {appendix}{\chapternumberline {H}Appendix - Poster from EXPE}{123}{chapter.H}
-\contentsline {appendix}{\chapternumberline {I}Appendix - Final Presentation}{125}{chapter.I}
+\contentsline {appendix}{\chapternumberline {D}Appendix - Interviews regarding baggage handling}{103}{chapter.D}
+\contentsline {section}{\numberline {D.1}Claude Monteils, Air France}{103}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}General procedure for wheelchair storage}{103}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Specific procedure for heavy powered wheelchair which are stored in the cargo hold}{104}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Impacts on the center of gravity of the plane due to the presence of a heavy wheelchair in the cargo hold}{105}{subsection.D.1.3}
+\contentsline {subsection}{\numberline {D.1.4}Responsibilities of the airline employees}{105}{subsection.D.1.4}
+\contentsline {section}{\numberline {D.2}Brandon Witta, Delta Airlines}{106}{section.D.2}
+\contentsline {appendix}{\chapternumberline {E}Appendix - Characteristics of Embraer jet E175}{108}{chapter.E}
+\contentsline {section}{\numberline {E.1}Analysis of aircraft dimensions}{108}{section.E.1}
+\contentsline {section}{\numberline {E.2}Analysis of the cargo hold structure}{110}{section.E.2}
+\contentsline {subsubsection}{\numberline {E.2.0.1}Analysis of short beams – shear failure}{113}{subsubsection.E.2.0.1}
+\contentsline {subsubsection}{\numberline {E.2.0.2}Analysis of floor panels – flat wise tension/compression failure}{114}{subsubsection.E.2.0.2}
+\contentsline {appendix}{\chapternumberline {F}Appendix - Proposed App Interface}{115}{chapter.F}
+\contentsline {appendix}{\chapternumberline {G}Appendix - Wheelchair Protection Code}{122}{chapter.G}
+\contentsline {section}{\numberline {G.1}Wheelchair$\_$Integrated.ino - Arduino}{122}{section.G.1}
+\contentsline {section}{\numberline {G.2}Embraer$\_$UI.pde - Processing}{130}{section.G.2}
+\contentsline {appendix}{\chapternumberline {H}Appendix - Brochure from EXPE}{132}{chapter.H}
+\contentsline {appendix}{\chapternumberline {I}Appendix - Poster from EXPE}{135}{chapter.I}
+\contentsline {appendix}{\chapternumberline {J}Appendix - Final Presentation}{137}{chapter.J}
