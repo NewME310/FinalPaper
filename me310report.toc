@@ -77,60 +77,88 @@
 \contentsline {subsubsection}{\numberline {6.5.2.4}Amanda Mota}{82}{subsubsection.6.5.2.4}
 \contentsline {chapter}{\chapternumberline {7}Acknowledgement}{83}{chapter.7}
 \contentsline {chapter}{Bibliography}{84}{section*.23}
-\contentsline {appendix}{\chapternumberline {A}Appendix - Flying experience from A to Z}{86}{chapter.A}
-\contentsline {appendix}{\chapternumberline {B}Appendix - Additional Design Development}{87}{chapter.B}
-\contentsline {section}{\numberline {B.1}Dark horse}{87}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Dark Horse Version 1}{87}{subsection.B.1.1}
-\contentsline {subsubsection}{\numberline {B.1.1.1}Benchmarking}{87}{subsubsection.B.1.1.1}
-\contentsline {subsubsection}{\numberline {B.1.1.2}Description of the prototype}{89}{subsubsection.B.1.1.2}
-\contentsline {subsubsection}{\numberline {B.1.1.3}Sleeping Area}{90}{subsubsection.B.1.1.3}
-\contentsline {subsubsection}{\numberline {B.1.1.4}Learnings}{93}{subsubsection.B.1.1.4}
-\contentsline {subsection}{\numberline {B.1.2}Dark Horse Version 2}{94}{subsection.B.1.2}
-\contentsline {subsubsection}{\numberline {B.1.2.1}Benchmarking}{94}{subsubsection.B.1.2.1}
-\contentsline {subsubsection}{\numberline {B.1.2.2}Description of the prototype}{95}{subsubsection.B.1.2.2}
-\contentsline {subsubsection}{\numberline {B.1.2.3}Learnings}{95}{subsubsection.B.1.2.3}
-\contentsline {subsection}{\numberline {B.1.3}USP Dark Horse Prototype}{97}{subsection.B.1.3}
-\contentsline {subsubsection}{\numberline {B.1.3.1}Ideation}{97}{subsubsection.B.1.3.1}
-\contentsline {subsubsection}{\numberline {B.1.3.2}Dark Horse Candidates}{99}{subsubsection.B.1.3.2}
-\contentsline {subsubsection}{\numberline {B.1.3.3}Benchmarking}{99}{subsubsection.B.1.3.3}
-\contentsline {subsubsection}{\numberline {B.1.3.4}Building our prototype}{103}{subsubsection.B.1.3.4}
-\contentsline {subsubsection}{\numberline {B.1.3.5}Learnings and Feedback}{105}{subsubsection.B.1.3.5}
-\contentsline {section}{\numberline {B.2}Funky Prototype}{106}{section.B.2}
-\contentsline {subsection}{\numberline {B.2.1}Benchmarking}{106}{subsection.B.2.1}
-\contentsline {subsubsection}{\numberline {B.2.1.1}Version 1: Controlling the Environment}{107}{subsubsection.B.2.1.1}
-\contentsline {subsubsection}{\numberline {B.2.1.2}Version 2: Controlling the Environment with a New Armrest and Controls}{109}{subsubsection.B.2.1.2}
-\contentsline {subsection}{\numberline {B.2.2}Description of the prototype}{112}{subsection.B.2.2}
-\contentsline {subsubsection}{\numberline {B.2.2.1}Controls}{112}{subsubsection.B.2.2.1}
-\contentsline {subsubsection}{\numberline {B.2.2.2}Buttons on armrest}{112}{subsubsection.B.2.2.2}
-\contentsline {subsubsection}{\numberline {B.2.2.3}GUI on Screen and Device}{114}{subsubsection.B.2.2.3}
-\contentsline {subsubsection}{\numberline {B.2.2.4}Automated Controls}{114}{subsubsection.B.2.2.4}
-\contentsline {subsubsection}{\numberline {B.2.2.5}Armrest}{115}{subsubsection.B.2.2.5}
-\contentsline {subsection}{\numberline {B.2.3}Learnings}{115}{subsection.B.2.3}
-\contentsline {subsubsection}{\numberline {B.2.3.1}User's feedback about the armrest mechanism we designed:}{116}{subsubsection.B.2.3.1}
-\contentsline {subsubsection}{\numberline {B.2.3.2}User's feedback about the control systems we designed:}{117}{subsubsection.B.2.3.2}
-\contentsline {appendix}{\chapternumberline {C}Appendix - User survey}{118}{chapter.C}
-\contentsline {appendix}{\chapternumberline {D}Appendix - Interviews regarding baggage handling}{122}{chapter.D}
-\contentsline {section}{\numberline {D.1}Claude Monteils, Air France}{122}{section.D.1}
-\contentsline {subsection}{\numberline {D.1.1}General procedure for wheelchair storage}{122}{subsection.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Specific procedure for heavy powered wheelchair which are stored in the cargo hold}{123}{subsection.D.1.2}
-\contentsline {subsection}{\numberline {D.1.3}Impacts on the center of gravity of the plane due to the presence of a heavy wheelchair in the cargo hold}{124}{subsection.D.1.3}
-\contentsline {subsection}{\numberline {D.1.4}Responsibilities of the airline employees}{124}{subsection.D.1.4}
-\contentsline {section}{\numberline {D.2}Brandon Witta, Delta Airlines}{125}{section.D.2}
-\contentsline {appendix}{\chapternumberline {E}Appendix - Characteristics of Embraer jet E175}{127}{chapter.E}
-\contentsline {section}{\numberline {E.1}Analysis of aircraft dimensions}{127}{section.E.1}
-\contentsline {section}{\numberline {E.2}Analysis of the cargo hold structure}{129}{section.E.2}
-\contentsline {subsubsection}{\numberline {E.2.0.1}Analysis of short beams – shear failure}{132}{subsubsection.E.2.0.1}
-\contentsline {subsubsection}{\numberline {E.2.0.2}Analysis of floor panels – flat wise tension/compression failure}{133}{subsubsection.E.2.0.2}
-\contentsline {appendix}{\chapternumberline {F}Appendix - Proposed App Interface}{134}{chapter.F}
-\contentsline {appendix}{\chapternumberline {G}Appendix - Wheelchair Protection Code}{141}{chapter.G}
-\contentsline {section}{\numberline {G.1}Wheelchair$\_$Integrated.ino - Arduino}{141}{section.G.1}
-\contentsline {section}{\numberline {G.2}Embraer$\_$UI.pde - Processing}{149}{section.G.2}
-\contentsline {appendix}{\chapternumberline {H}Appendix - Stanford Spring Expenses}{151}{chapter.H}
-\contentsline {appendix}{\chapternumberline {I}Appendix - Brochure from Winter Quarter}{153}{chapter.I}
-\contentsline {appendix}{\chapternumberline {J}Appendix - Winter Presentation}{156}{chapter.J}
-\contentsline {appendix}{\chapternumberline {K}Appendix - Brochure from EXPE}{161}{chapter.K}
-\contentsline {appendix}{\chapternumberline {L}Appendix - Poster from EXPE}{164}{chapter.L}
-\contentsline {appendix}{\chapternumberline {M}Appendix - Final Presentation}{166}{chapter.M}
-\contentsline {appendix}{\chapternumberline {N}Appendix - Engineering Drawings and CAD Models}{171}{chapter.N}
-\contentsline {section}{\numberline {N.1}The Platform}{171}{section.N.1}
-\contentsline {section}{\numberline {N.2}The Aisle Wheelchair}{174}{section.N.2}
+\contentsline {appendix}{\chapternumberline {A}Appendix - Deep analysis of users problems and needfinding}{86}{chapter.A}
+\contentsline {section}{\numberline {A.1}User Benchmarking and Need-Finding}{86}{section.A.1}
+\contentsline {section}{\numberline {A.2}Need-Finding}{86}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Expert Interviews}{86}{subsection.A.2.1}
+\contentsline {subsubsection}{\numberline {A.2.1.1}Dianne McMullin, Human Factors Engineer at Boeing}{86}{subsubsection.A.2.1.1}
+\contentsline {subsection}{\numberline {A.2.2}Kate Hunter-Zaworksi, Director of National Center for Accessible Transportation}{87}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}User Interviews}{88}{subsection.A.2.3}
+\contentsline {subsubsection}{\numberline {A.2.3.1}Teri Adams, Assistant Director of Stanford Office of Accessible Education}{88}{subsubsection.A.2.3.1}
+\contentsline {subsubsection}{\numberline {A.2.3.2}Scott Rains, Travel and Cruise Specialist for Disabled Persons}{89}{subsubsection.A.2.3.2}
+\contentsline {subsubsection}{\numberline {A.2.3.3}Jose Luis Naranjo, T6 Paraplegic}{90}{subsubsection.A.2.3.3}
+\contentsline {subsubsection}{\numberline {A.2.3.4}Cid Torquato, Municipal Department of People with Disabilities and Reduced Mobility}{92}{subsubsection.A.2.3.4}
+\contentsline {subsubsection}{\numberline {A.2.3.5}Nanci Linke-Ellis, Board of Trustees for HLAA}{93}{subsubsection.A.2.3.5}
+\contentsline {subsubsection}{\numberline {A.2.3.6}Cheryl Echevarria, President of NFB Travel and Tourism Division}{94}{subsubsection.A.2.3.6}
+\contentsline {subsection}{\numberline {A.2.4}Flight Crew}{94}{subsection.A.2.4}
+\contentsline {subsubsection}{\numberline {A.2.4.1}Airport}{96}{subsubsection.A.2.4.1}
+\contentsline {subsubsection}{\numberline {A.2.4.2}Airplane}{96}{subsubsection.A.2.4.2}
+\contentsline {subsubsection}{\numberline {A.2.4.3}Miscellaneous}{97}{subsubsection.A.2.4.3}
+\contentsline {subsection}{\numberline {A.2.5}Observations}{97}{subsection.A.2.5}
+\contentsline {subsubsection}{\numberline {A.2.5.1}Outside the Airport}{97}{subsubsection.A.2.5.1}
+\contentsline {subsubsection}{\numberline {A.2.5.2}Inside the Airport}{98}{subsubsection.A.2.5.2}
+\contentsline {subsection}{\numberline {A.2.6}Airplane Observations}{101}{subsection.A.2.6}
+\contentsline {subsection}{\numberline {A.2.7}Patty White, The Elderly Passenger}{104}{subsection.A.2.7}
+\contentsline {subsection}{\numberline {A.2.8}Juliette Fields, Flight Attendant}{104}{subsection.A.2.8}
+\contentsline {section}{\numberline {A.3}Benchmarking}{105}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Wheelchair and Passenger Transport}{105}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Wheelchair Latching}{107}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Luggage Storage and Ease of Movement through Cabin}{108}{subsection.A.3.3}
+\contentsline {subsection}{\numberline {A.3.4}Customization and Support}{108}{subsection.A.3.4}
+\contentsline {appendix}{\chapternumberline {B}Appendix - Flying experience from A to Z}{110}{chapter.B}
+\contentsline {appendix}{\chapternumberline {C}Appendix - Additional Design Development}{111}{chapter.C}
+\contentsline {section}{\numberline {C.1}Dark horse}{111}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Dark Horse Version 1}{111}{subsection.C.1.1}
+\contentsline {subsubsection}{\numberline {C.1.1.1}Benchmarking}{111}{subsubsection.C.1.1.1}
+\contentsline {subsubsection}{\numberline {C.1.1.2}Description of the prototype}{113}{subsubsection.C.1.1.2}
+\contentsline {subsubsection}{\numberline {C.1.1.3}Sleeping Area}{114}{subsubsection.C.1.1.3}
+\contentsline {subsubsection}{\numberline {C.1.1.4}Learnings}{117}{subsubsection.C.1.1.4}
+\contentsline {subsection}{\numberline {C.1.2}Dark Horse Version 2}{118}{subsection.C.1.2}
+\contentsline {subsubsection}{\numberline {C.1.2.1}Benchmarking}{118}{subsubsection.C.1.2.1}
+\contentsline {subsubsection}{\numberline {C.1.2.2}Description of the prototype}{119}{subsubsection.C.1.2.2}
+\contentsline {subsubsection}{\numberline {C.1.2.3}Learnings}{119}{subsubsection.C.1.2.3}
+\contentsline {subsection}{\numberline {C.1.3}USP Dark Horse Prototype}{121}{subsection.C.1.3}
+\contentsline {subsubsection}{\numberline {C.1.3.1}Ideation}{121}{subsubsection.C.1.3.1}
+\contentsline {subsubsection}{\numberline {C.1.3.2}Dark Horse Candidates}{123}{subsubsection.C.1.3.2}
+\contentsline {subsubsection}{\numberline {C.1.3.3}Benchmarking}{123}{subsubsection.C.1.3.3}
+\contentsline {subsubsection}{\numberline {C.1.3.4}Building our prototype}{127}{subsubsection.C.1.3.4}
+\contentsline {subsubsection}{\numberline {C.1.3.5}Learnings and Feedback}{129}{subsubsection.C.1.3.5}
+\contentsline {section}{\numberline {C.2}Funky Prototype}{130}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Benchmarking}{130}{subsection.C.2.1}
+\contentsline {subsubsection}{\numberline {C.2.1.1}Version 1: Controlling the Environment}{131}{subsubsection.C.2.1.1}
+\contentsline {subsubsection}{\numberline {C.2.1.2}Version 2: Controlling the Environment with a New Armrest and Controls}{133}{subsubsection.C.2.1.2}
+\contentsline {subsection}{\numberline {C.2.2}Description of the prototype}{136}{subsection.C.2.2}
+\contentsline {subsubsection}{\numberline {C.2.2.1}Controls}{136}{subsubsection.C.2.2.1}
+\contentsline {subsubsection}{\numberline {C.2.2.2}Buttons on armrest}{136}{subsubsection.C.2.2.2}
+\contentsline {subsubsection}{\numberline {C.2.2.3}GUI on Screen and Device}{138}{subsubsection.C.2.2.3}
+\contentsline {subsubsection}{\numberline {C.2.2.4}Automated Controls}{138}{subsubsection.C.2.2.4}
+\contentsline {subsubsection}{\numberline {C.2.2.5}Armrest}{139}{subsubsection.C.2.2.5}
+\contentsline {subsection}{\numberline {C.2.3}Learnings}{139}{subsection.C.2.3}
+\contentsline {subsubsection}{\numberline {C.2.3.1}User's feedback about the armrest mechanism we designed:}{140}{subsubsection.C.2.3.1}
+\contentsline {subsubsection}{\numberline {C.2.3.2}User's feedback about the control systems we designed:}{141}{subsubsection.C.2.3.2}
+\contentsline {appendix}{\chapternumberline {D}Appendix - User survey}{142}{chapter.D}
+\contentsline {appendix}{\chapternumberline {E}Appendix - Interviews regarding baggage handling}{146}{chapter.E}
+\contentsline {section}{\numberline {E.1}Claude Monteils, Air France}{146}{section.E.1}
+\contentsline {subsection}{\numberline {E.1.1}General procedure for wheelchair storage}{146}{subsection.E.1.1}
+\contentsline {subsection}{\numberline {E.1.2}Specific procedure for heavy powered wheelchair which are stored in the cargo hold}{147}{subsection.E.1.2}
+\contentsline {subsection}{\numberline {E.1.3}Impacts on the center of gravity of the plane due to the presence of a heavy wheelchair in the cargo hold}{148}{subsection.E.1.3}
+\contentsline {subsection}{\numberline {E.1.4}Responsibilities of the airline employees}{148}{subsection.E.1.4}
+\contentsline {section}{\numberline {E.2}Brandon Witta, Delta Airlines}{149}{section.E.2}
+\contentsline {appendix}{\chapternumberline {F}Appendix - Characteristics of Embraer jet E175}{151}{chapter.F}
+\contentsline {section}{\numberline {F.1}Analysis of aircraft dimensions}{151}{section.F.1}
+\contentsline {section}{\numberline {F.2}Analysis of the cargo hold structure}{153}{section.F.2}
+\contentsline {subsubsection}{\numberline {F.2.0.1}Analysis of short beams – shear failure}{156}{subsubsection.F.2.0.1}
+\contentsline {subsubsection}{\numberline {F.2.0.2}Analysis of floor panels – flat wise tension/compression failure}{157}{subsubsection.F.2.0.2}
+\contentsline {appendix}{\chapternumberline {G}Appendix - Proposed App Interface}{158}{chapter.G}
+\contentsline {appendix}{\chapternumberline {H}Appendix - Wheelchair Protection Code}{165}{chapter.H}
+\contentsline {section}{\numberline {H.1}Wheelchair$\_$Integrated.ino - Arduino}{165}{section.H.1}
+\contentsline {section}{\numberline {H.2}Embraer$\_$UI.pde - Processing}{173}{section.H.2}
+\contentsline {appendix}{\chapternumberline {I}Appendix - Stanford Spring Expenses}{175}{chapter.I}
+\contentsline {appendix}{\chapternumberline {J}Appendix - Brochure from Winter Quarter}{177}{chapter.J}
+\contentsline {appendix}{\chapternumberline {K}Appendix - Winter Presentation}{180}{chapter.K}
+\contentsline {appendix}{\chapternumberline {L}Appendix - Brochure from EXPE}{185}{chapter.L}
+\contentsline {appendix}{\chapternumberline {M}Appendix - Poster from EXPE}{188}{chapter.M}
+\contentsline {appendix}{\chapternumberline {N}Appendix - Final Presentation}{190}{chapter.N}
+\contentsline {appendix}{\chapternumberline {O}Appendix - Engineering Drawings and CAD Models}{195}{chapter.O}
+\contentsline {section}{\numberline {O.1}The Platform}{195}{section.O.1}
+\contentsline {section}{\numberline {O.2}The Aisle Wheelchair}{198}{section.O.2}

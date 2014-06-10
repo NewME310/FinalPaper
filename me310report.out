@@ -33,27 +33,31 @@
 \BOOKMARK [1][-]{section.6.5}{Reflection and Goals}{chapter.6}% 33
 \BOOKMARK [0][-]{chapter.7}{Acknowledgement}{}% 34
 \BOOKMARK [0][-]{section*.23}{Bibliography}{}% 35
-\BOOKMARK [0][-]{chapter.A}{Appendix - Flying experience from A to Z}{}% 36
-\BOOKMARK [0][-]{chapter.B}{Appendix - Additional Design Development}{}% 37
-\BOOKMARK [1][-]{section.B.1}{Dark horse}{chapter.B}% 38
-\BOOKMARK [1][-]{section.B.2}{Funky Prototype}{chapter.B}% 39
-\BOOKMARK [0][-]{chapter.C}{Appendix - User survey}{}% 40
-\BOOKMARK [0][-]{chapter.D}{Appendix - Interviews regarding baggage handling}{}% 41
-\BOOKMARK [1][-]{section.D.1}{Claude Monteils, Air France}{chapter.D}% 42
-\BOOKMARK [1][-]{section.D.2}{Brandon Witta, Delta Airlines}{chapter.D}% 43
-\BOOKMARK [0][-]{chapter.E}{Appendix - Characteristics of Embraer jet E175}{}% 44
-\BOOKMARK [1][-]{section.E.1}{Analysis of aircraft dimensions}{chapter.E}% 45
-\BOOKMARK [1][-]{section.E.2}{Analysis of the cargo hold structure}{chapter.E}% 46
-\BOOKMARK [0][-]{chapter.F}{Appendix - Proposed App Interface}{}% 47
-\BOOKMARK [0][-]{chapter.G}{Appendix - Wheelchair Protection Code}{}% 48
-\BOOKMARK [1][-]{section.G.1}{Wheelchair\137Integrated.ino - Arduino}{chapter.G}% 49
-\BOOKMARK [1][-]{section.G.2}{Embraer\137UI.pde - Processing}{chapter.G}% 50
-\BOOKMARK [0][-]{chapter.H}{Appendix - Stanford Spring Expenses}{}% 51
-\BOOKMARK [0][-]{chapter.I}{Appendix - Brochure from Winter Quarter}{}% 52
-\BOOKMARK [0][-]{chapter.J}{Appendix - Winter Presentation}{}% 53
-\BOOKMARK [0][-]{chapter.K}{Appendix - Brochure from EXPE}{}% 54
-\BOOKMARK [0][-]{chapter.L}{Appendix - Poster from EXPE}{}% 55
-\BOOKMARK [0][-]{chapter.M}{Appendix - Final Presentation}{}% 56
-\BOOKMARK [0][-]{chapter.N}{Appendix - Engineering Drawings and CAD Models}{}% 57
-\BOOKMARK [1][-]{section.N.1}{The Platform}{chapter.N}% 58
-\BOOKMARK [1][-]{section.N.2}{The Aisle Wheelchair}{chapter.N}% 59
+\BOOKMARK [0][-]{chapter.A}{Appendix - Deep analysis of users problems and needfinding}{}% 36
+\BOOKMARK [1][-]{section.A.1}{User Benchmarking and Need-Finding}{chapter.A}% 37
+\BOOKMARK [1][-]{section.A.2}{Need-Finding}{chapter.A}% 38
+\BOOKMARK [1][-]{section.A.3}{Benchmarking}{chapter.A}% 39
+\BOOKMARK [0][-]{chapter.B}{Appendix - Flying experience from A to Z}{}% 40
+\BOOKMARK [0][-]{chapter.C}{Appendix - Additional Design Development}{}% 41
+\BOOKMARK [1][-]{section.C.1}{Dark horse}{chapter.C}% 42
+\BOOKMARK [1][-]{section.C.2}{Funky Prototype}{chapter.C}% 43
+\BOOKMARK [0][-]{chapter.D}{Appendix - User survey}{}% 44
+\BOOKMARK [0][-]{chapter.E}{Appendix - Interviews regarding baggage handling}{}% 45
+\BOOKMARK [1][-]{section.E.1}{Claude Monteils, Air France}{chapter.E}% 46
+\BOOKMARK [1][-]{section.E.2}{Brandon Witta, Delta Airlines}{chapter.E}% 47
+\BOOKMARK [0][-]{chapter.F}{Appendix - Characteristics of Embraer jet E175}{}% 48
+\BOOKMARK [1][-]{section.F.1}{Analysis of aircraft dimensions}{chapter.F}% 49
+\BOOKMARK [1][-]{section.F.2}{Analysis of the cargo hold structure}{chapter.F}% 50
+\BOOKMARK [0][-]{chapter.G}{Appendix - Proposed App Interface}{}% 51
+\BOOKMARK [0][-]{chapter.H}{Appendix - Wheelchair Protection Code}{}% 52
+\BOOKMARK [1][-]{section.H.1}{Wheelchair\137Integrated.ino - Arduino}{chapter.H}% 53
+\BOOKMARK [1][-]{section.H.2}{Embraer\137UI.pde - Processing}{chapter.H}% 54
+\BOOKMARK [0][-]{chapter.I}{Appendix - Stanford Spring Expenses}{}% 55
+\BOOKMARK [0][-]{chapter.J}{Appendix - Brochure from Winter Quarter}{}% 56
+\BOOKMARK [0][-]{chapter.K}{Appendix - Winter Presentation}{}% 57
+\BOOKMARK [0][-]{chapter.L}{Appendix - Brochure from EXPE}{}% 58
+\BOOKMARK [0][-]{chapter.M}{Appendix - Poster from EXPE}{}% 59
+\BOOKMARK [0][-]{chapter.N}{Appendix - Final Presentation}{}% 60
+\BOOKMARK [0][-]{chapter.O}{Appendix - Engineering Drawings and CAD Models}{}% 61
+\BOOKMARK [1][-]{section.O.1}{The Platform}{chapter.O}% 62
+\BOOKMARK [1][-]{section.O.2}{The Aisle Wheelchair}{chapter.O}% 63
