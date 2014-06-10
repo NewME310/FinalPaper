@@ -116,6 +116,8 @@
 \contentsline {appendix}{\chapternumberline {G}Appendix - Wheelchair Protection Code}{122}{chapter.G}
 \contentsline {section}{\numberline {G.1}Wheelchair$\_$Integrated.ino - Arduino}{122}{section.G.1}
 \contentsline {section}{\numberline {G.2}Embraer$\_$UI.pde - Processing}{130}{section.G.2}
-\contentsline {appendix}{\chapternumberline {H}Appendix - Brochure from EXPE}{132}{chapter.H}
-\contentsline {appendix}{\chapternumberline {I}Appendix - Poster from EXPE}{135}{chapter.I}
-\contentsline {appendix}{\chapternumberline {J}Appendix - Final Presentation}{137}{chapter.J}
+\contentsline {appendix}{\chapternumberline {H}Appendix - Brochure from Winter Quarter}{132}{chapter.H}
+\contentsline {appendix}{\chapternumberline {I}Appendix - Winter Presentation}{135}{chapter.I}
+\contentsline {appendix}{\chapternumberline {J}Appendix - Brochure from EXPE}{140}{chapter.J}
+\contentsline {appendix}{\chapternumberline {K}Appendix - Poster from EXPE}{143}{chapter.K}
+\contentsline {appendix}{\chapternumberline {L}Appendix - Final Presentation}{145}{chapter.L}
