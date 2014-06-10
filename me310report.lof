@@ -1,4 +1,5 @@
 \addvspace {10pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Both products enable a whole new experience for our users.}}{3}{figure.1.1}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces With Airlines adding more and more seats to their planes, it is increasingly hard to maneuver around the cabin. \cite {2014airlines}}}{12}{figure.2.1}
 \addvspace {10pt}
@@ -42,30 +43,26 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Rear of platform, with jack}}{62}{figure.5.6}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Another view of the rear of the platform}}{62}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces The platform lowered and raised with respect to the rear wheels}}{63}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces The bracket mounted to the front of the platform for attaching the front casters}}{63}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces The piece bridging the bracket attached to the rear of the platform and the bracket attached to the jack}}{64}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces The bracket for attaching to the electric jack}}{64}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces The bracket for attaching to the rear of the platform}}{65}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces An RFID-enabled glove and an earlier prototype of the electronics box}}{66}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Processing interface showing most recent handler}}{66}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Processing interface indicating that the wheelchair was bumped}}{67}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces The Embraccess Aisle Wheelchair}}{67}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces The footrest}}{68}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces The sliding mechanism}}{69}{figure.5.18}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces A close up of the latching mechanism}}{70}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Diagram of whole latching mechanism}}{70}{figure.5.20}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Diagram of the Frontrest}}{71}{figure.5.21}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces The adjustable handles}}{71}{figure.5.22}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces The Beasy Board}}{72}{figure.5.23}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces The Airplane Seat}}{73}{figure.5.24}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces An RFID-enabled glove and an earlier prototype of the electronics box}}{63}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Processing interface showing most recent handler}}{64}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Processing interface indicating that the wheelchair was bumped}}{64}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces The Embraccess Aisle Wheelchair}}{65}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces The footrest}}{66}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces The sliding mechanism}}{67}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces A close up of the latching mechanism}}{68}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Diagram of whole latching mechanism}}{68}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Diagram of the Frontrest}}{69}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces The adjustable handles}}{69}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces The Beasy Board}}{70}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces The Airplane Seat}}{71}{figure.5.20}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Deliverables and Milestones for the whole project}}{74}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces The layout of building 550 for EXPE}}{75}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces The layout of our EXPE booth}}{75}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Solidworks model of fuselage piece}}{76}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Preliminary booth set up}}{77}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Side view of the booth}}{77}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The team at EXPE}}{78}{figure.6.7}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Deliverables and Milestones for the whole project}}{72}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The layout of building 550 for EXPE}}{73}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The layout of our EXPE booth}}{73}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Solidworks model of fuselage piece}}{74}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Preliminary booth set up}}{75}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Side view of the booth}}{75}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The team at EXPE}}{76}{figure.6.7}
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {A.1}{\ignorespaces test meetings data}}{86}{figure.A.1}
@@ -144,3 +141,23 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {L.1}{\ignorespaces Poster for EXPE}}{165}{figure.L.1}
 \addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {N.1}{\ignorespaces The bracket mounted to the front of the platform for attaching the front casters}}{172}{figure.N.1}
+\contentsline {figure}{\numberline {N.2}{\ignorespaces The piece bridging the bracket attached to the rear of the platform and the bracket attached to the jack}}{172}{figure.N.2}
+\contentsline {figure}{\numberline {N.3}{\ignorespaces The bracket for attaching to the electric jack}}{173}{figure.N.3}
+\contentsline {figure}{\numberline {N.4}{\ignorespaces The bracket for attaching to the rear of the platform}}{173}{figure.N.4}
+\contentsline {figure}{\numberline {N.5}{\ignorespaces Exploded view of the sliding base and cushion}}{174}{figure.N.5}
+\contentsline {figure}{\numberline {N.6}{\ignorespaces Exploded view of the frontrest}}{174}{figure.N.6}
+\contentsline {figure}{\numberline {N.7}{\ignorespaces Exploded view of the base and footrest}}{174}{figure.N.7}
+\contentsline {figure}{\numberline {N.8}{\ignorespaces Exploded view of redesigned aisle wheelchair}}{175}{figure.N.8}
+\contentsline {figure}{\numberline {N.9}{\ignorespaces Exploded view of redesigned aisle wheelchair}}{175}{figure.N.9}
+\contentsline {figure}{\numberline {N.10}{\ignorespaces Frontrest cushion}}{176}{figure.N.10}
+\contentsline {figure}{\numberline {N.11}{\ignorespaces Detail of the bar slot on the frontrest}}{177}{figure.N.11}
+\contentsline {figure}{\numberline {N.12}{\ignorespaces Seat cushion}}{178}{figure.N.12}
+\contentsline {figure}{\numberline {N.13}{\ignorespaces Front bar and footrest}}{179}{figure.N.13}
+\contentsline {figure}{\numberline {N.14}{\ignorespaces Base of the wheelhair}}{180}{figure.N.14}
+\contentsline {figure}{\numberline {N.15}{\ignorespaces Front support and handles design}}{181}{figure.N.15}
+\contentsline {figure}{\numberline {N.16}{\ignorespaces Design of the aisle wheelchair}}{182}{figure.N.16}
+\contentsline {figure}{\numberline {N.17}{\ignorespaces Design of the wheelchair's structure}}{183}{figure.N.17}
+\contentsline {figure}{\numberline {N.18}{\ignorespaces Detail of the front support's housing}}{184}{figure.N.18}
+\contentsline {figure}{\numberline {N.19}{\ignorespaces Details of the aluminum profiles }}{185}{figure.N.19}
