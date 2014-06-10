@@ -65,6 +65,13 @@ The last main feature of the platform is the handle. As you can see from Figure 
 
 \begin{figure}
 \centering
+ \includegraphics[width=0.6\textwidth]{images/rear_alternate}
+\caption{Another view of the rear of the platform}
+\label{fig:rear_alt}
+\end{figure}
+
+\begin{figure}
+\centering
  \includegraphics[width=0.8\textwidth]{images/rear_raise}
 \caption{The platform lowered and raised with respect to the rear wheels}
 \label{fig:rear_raise}
@@ -73,6 +80,8 @@ The last main feature of the platform is the handle. As you can see from Figure 
 The platform's moving mechanism was made up of two main components - the front wheels, which are permanently fixed to the platform but not always in contact with the ground, and the rear wheels, which are permanently in contact with the ground but are at a variable height relative to the platform.
 
 By raising and lowering the platform relative to the rear wheels the platform is effectively rotated, engaging and or disengaging the front wheels, as shown in Figure \ref{fig:front_wheels}. This process is enabled by an electric jack, controlled by the user, which is attached on top of the rear wheels and is responsible for modulating the platform's height. The rear of the platform is shown in Figure \ref{fig:rear_assembly} while the process is shown in Figure \ref{fig:rear_raise}. Several parts had to be custom designed and manufactured from stock aluminum using both the manual and CNC mills in the Product Realization Lab. These consisted of two pairs of the front mounting bracket Figure \ref{fig:front_bracket} and one each of the rear mounting assembly: Figure \ref{fig:tall_piece}, Figure \ref{fig:top_piece}, and Figure \ref{fig:bottom_piece}. For added stability there are also four steel cable wires running between the platform and the 80/20 support structure underneath the rear wheels.
+
+The jack is actuated by pressing two buttons on the electronics box attached to the handle - one for raising the platform and one for lowering. When lowered, the platform effectively distributes the weight of the wheelchair and secures it safely in place. Raising the platform allows for easy manuevering by a single handler.
 
 \begin{figure}
 \centering
@@ -104,8 +113,32 @@ By raising and lowering the platform relative to the rear wheels the platform is
 
 \subsection{The electronics}
 
+The electronics subsystem consists of an Arduino Uno along with a Sparkfun RFID board, an ADXL345 accelerometer, and an XBee radio for communications. The software on the Arduino, available in the appendix, allows for keeping track of who's handling the platform by scanning RFID tags embedded in gloves (demonstrated in Figure \ref{fig:glove}). LEDs inside of the box light up and illuminate the translucent acrylic, notifying handlers of a successfull tag-in. Additionally, the accelerometer is capable of detecting when the wheelchair is excessively bumped or goes into freefall, both of which are potential indicators of mishandling.
 
+This is relayed wirelessly through the XBee radio boards and displayed in an interface programmed with Processing, shown in Figure \ref{fig:processing}.
 
+The electronics box is powered by a 9 volt switching regulator which is in turn powered by the battery attached to the base of the platform. The battery (non-spillable lead acid) is also used to power the electric jack, which runs off of a 12 volt supply.
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.4\textwidth]{images/glove}
+\caption{An RFID-enabled glove and an earlier prototype of the electronics box}
+\label{fig:glove}
+\end{figure}
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.6\textwidth]{images/processing_use}
+\caption{Processing interface showing most recent handler}
+\label{fig:processing}
+\end{figure}
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.5\textwidth]{images/processing_bump}
+\caption{Processing interface indicating that the wheelchair was bumped}
+\label{fig:processing_bump}
+\end{figure}
 
 
 \section{Embraccess Aisle Wheelchair}
