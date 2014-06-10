@@ -11,43 +11,44 @@
 \BOOKMARK [1][-]{section.2.5}{The Design Team}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.6}{Coaches}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.7}{Contributors}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{Design Development}{}% 14
-\BOOKMARK [1][-]{section.3.1}{User needfinding}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.2}{Dark horse}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.3}{Going Back to The Need}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.4}{Functional Prototype}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.5}{Our vision for the final product}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{Design Requirements}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Functional Requirements}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Physical Requirements}{chapter.4}% 22
-\BOOKMARK [0][-]{chapter.5}{Design Specifications}{}% 23
-\BOOKMARK [1][-]{section.5.1}{Wheelchair Storage}{chapter.5}% 24
-\BOOKMARK [1][-]{section.5.2}{Transfer Mechanism}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.3}{User feedback about the whole experience}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter.6}{Project Management}{}% 27
-\BOOKMARK [1][-]{section.6.1}{Deliverables and milestones}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{Distributed team management}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.3}{Project Budget}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.4}{Reflection and Goals}{chapter.6}% 31
-\BOOKMARK [0][-]{chapter.7}{Acknowledgement}{}% 32
-\BOOKMARK [0][-]{section*.23}{Bibliography}{}% 33
-\BOOKMARK [0][-]{chapter.A}{Appendix - Flying experience from A to Z}{}% 34
-\BOOKMARK [0][-]{chapter.B}{Appendix - Additional Design Development}{}% 35
-\BOOKMARK [1][-]{section.B.1}{Dark horse}{chapter.B}% 36
-\BOOKMARK [1][-]{section.B.2}{Funky Prototype}{chapter.B}% 37
-\BOOKMARK [0][-]{chapter.C}{Appendix - User survey}{}% 38
-\BOOKMARK [0][-]{chapter.D}{Appendix - Interviews regarding baggage handling}{}% 39
-\BOOKMARK [1][-]{section.D.1}{Claude Monteils, Air France}{chapter.D}% 40
-\BOOKMARK [1][-]{section.D.2}{Brandon Witta, Delta Airlines}{chapter.D}% 41
-\BOOKMARK [0][-]{chapter.E}{Appendix - Characteristics of Embraer jet E175}{}% 42
-\BOOKMARK [1][-]{section.E.1}{Analysis of aircraft dimensions}{chapter.E}% 43
-\BOOKMARK [1][-]{section.E.2}{Analysis of the cargo hold structure}{chapter.E}% 44
-\BOOKMARK [0][-]{chapter.F}{Appendix - Proposed App Interface}{}% 45
-\BOOKMARK [0][-]{chapter.G}{Appendix - Wheelchair Protection Code}{}% 46
-\BOOKMARK [1][-]{section.G.1}{Wheelchair\137Integrated.ino - Arduino}{chapter.G}% 47
-\BOOKMARK [1][-]{section.G.2}{Embraer\137UI.pde - Processing}{chapter.G}% 48
-\BOOKMARK [0][-]{chapter.H}{Appendix - Brochure from Winter Quarter}{}% 49
-\BOOKMARK [0][-]{chapter.I}{Appendix - Winter Presentation}{}% 50
-\BOOKMARK [0][-]{chapter.J}{Appendix - Brochure from EXPE}{}% 51
-\BOOKMARK [0][-]{chapter.K}{Appendix - Poster from EXPE}{}% 52
-\BOOKMARK [0][-]{chapter.L}{Appendix - Final Presentation}{}% 53
+\BOOKMARK [1][-]{section.2.8}{TAs}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Design Development}{}% 15
+\BOOKMARK [1][-]{section.3.1}{User needfinding}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Dark horse}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{Going Back to The Need}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{Functional Prototype}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{Our vision for the final product}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Design Requirements}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Functional Requirements}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Physical Requirements}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{Design Specifications}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Wheelchair Storage}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{Transfer Mechanism}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{User feedback about the whole experience}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{Project Management}{}% 28
+\BOOKMARK [1][-]{section.6.1}{Deliverables and milestones}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.2}{Distributed team management}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.3}{Project Budget}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.4}{Reflection and Goals}{chapter.6}% 32
+\BOOKMARK [0][-]{chapter.7}{Acknowledgement}{}% 33
+\BOOKMARK [0][-]{section*.23}{Bibliography}{}% 34
+\BOOKMARK [0][-]{chapter.A}{Appendix - Flying experience from A to Z}{}% 35
+\BOOKMARK [0][-]{chapter.B}{Appendix - Additional Design Development}{}% 36
+\BOOKMARK [1][-]{section.B.1}{Dark horse}{chapter.B}% 37
+\BOOKMARK [1][-]{section.B.2}{Funky Prototype}{chapter.B}% 38
+\BOOKMARK [0][-]{chapter.C}{Appendix - User survey}{}% 39
+\BOOKMARK [0][-]{chapter.D}{Appendix - Interviews regarding baggage handling}{}% 40
+\BOOKMARK [1][-]{section.D.1}{Claude Monteils, Air France}{chapter.D}% 41
+\BOOKMARK [1][-]{section.D.2}{Brandon Witta, Delta Airlines}{chapter.D}% 42
+\BOOKMARK [0][-]{chapter.E}{Appendix - Characteristics of Embraer jet E175}{}% 43
+\BOOKMARK [1][-]{section.E.1}{Analysis of aircraft dimensions}{chapter.E}% 44
+\BOOKMARK [1][-]{section.E.2}{Analysis of the cargo hold structure}{chapter.E}% 45
+\BOOKMARK [0][-]{chapter.F}{Appendix - Proposed App Interface}{}% 46
+\BOOKMARK [0][-]{chapter.G}{Appendix - Wheelchair Protection Code}{}% 47
+\BOOKMARK [1][-]{section.G.1}{Wheelchair\137Integrated.ino - Arduino}{chapter.G}% 48
+\BOOKMARK [1][-]{section.G.2}{Embraer\137UI.pde - Processing}{chapter.G}% 49
+\BOOKMARK [0][-]{chapter.H}{Appendix - Brochure from Winter Quarter}{}% 50
+\BOOKMARK [0][-]{chapter.I}{Appendix - Winter Presentation}{}% 51
+\BOOKMARK [0][-]{chapter.J}{Appendix - Brochure from EXPE}{}% 52
+\BOOKMARK [0][-]{chapter.K}{Appendix - Poster from EXPE}{}% 53
+\BOOKMARK [0][-]{chapter.L}{Appendix - Final Presentation}{}% 54
